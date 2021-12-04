@@ -1,14 +1,15 @@
 {
   "name": "laravel-mix-nunjucks-2",
   "version": "1.0.0",
-  "description": "The fastest way to test if user uses a old browser client.",
+  "description": "A better solution than laravel-mix-nunjucks",
   "keywords": [
-    "outdated",
-    "old",
-    "browser",
-    "old-browser",
-    "detector",
-    "vanilla"
+    "laravel",
+    "mix",
+    "laravel-mix",
+    "nunjucks",
+    "njk",
+    "laravel-mix-nunjucks",
+    "laravel-mix-nunjucks-2"
   ],
   "main": "dist/index.min.js",
   "repository": "https://github.com/joaopjt/laravel-mix-nunjucks-2.git",
