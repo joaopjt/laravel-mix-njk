@@ -1,18 +1,18 @@
-# laravel-mix-nunjucks-2
+# laravel-mix-njk
 
 Laravel Mix extension to compile Nunjucks templates.
 
 ## Install
 
 ```bash
-npm install laravel-mix-nunjucks-2 --save-dev
+npm install laravel-mix-njk --save-dev
 ```
 
 ## Usage
 
 ```javascript
 const mix = require('laravel-mix');
-require('laravel-mix-nunjucks-2');
+require('laravel-mix-njk');
 
 mix.njk('resources/views/', {
   searchPath: '/',
