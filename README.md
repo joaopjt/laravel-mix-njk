@@ -23,8 +23,6 @@ mix.njk('resources/views/', {
 ```
 
 * `searchPath` - Search path for templates/partials
-* `context` - Data passed to template
+* `context` - Nunjucks data passed to the template
 
-*Feature*: Usage of a ready enviroment for sass, js and nunjucks with laravel-mix on it: [webpack-nunjucks-boilerplate](https://github.com/joaopjt/webpack-nunjucks-boilerplate/tree/laravel-mix).
-
-For more info about nunjucks, check [https://mozilla.github.io/nunjucks/api.html](https://mozilla.github.io/nunjucks/api.html)
+For more info about Nunjucks API, check [https://mozilla.github.io/nunjucks/api.html](https://mozilla.github.io/nunjucks/api.html)

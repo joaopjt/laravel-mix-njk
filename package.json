@@ -1,20 +1,19 @@
 {
-  "name": "laravel-mix-nunjucks-2",
-  "version": "1.0.2",
-  "description": "A abstract solution over laravel-mix-nunjucks library",
+  "name": "laravel-mix-njk",
+  "version": "1.0.0",
+  "description": "A abstract solution for nunjucks impementation on laravel-mix.",
   "keywords": [
     "laravel",
     "mix",
     "laravel-mix",
+    "laravel-mix-njk",
     "nunjucks",
-    "njk",
-    "laravel-mix-nunjucks",
-    "laravel-mix-nunjucks-2"
+    "njk"
   ],
   "main": "dist/index.min.js",
   "repository": "https://github.com/joaopjt/laravel-mix-nunjucks-2.git",
-  "author": "João Julio",
-  "license": "MIT",
+  "author": "João Pedro <joaopjt@gmail.com>",
+  "license": "Apache-2.0",
   "scripts": {
     "build": "./node_modules/.bin/rollup -c"
   },
