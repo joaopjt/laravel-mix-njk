@@ -1,14 +1,14 @@
 {
   "name": "laravel-mix-njk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A abstract solution for nunjucks impementation on laravel-mix.",
   "keywords": [
-    "laravel",
     "mix",
+    "njk",
+    "nunjucks",
     "laravel-mix",
     "laravel-mix-njk",
-    "nunjucks",
-    "njk"
+    "laravel-mix-nunjucks"
   ],
   "main": "dist/index.min.js",
   "repository": "https://github.com/joaopjt/laravel-mix-nunjucks-2.git",
