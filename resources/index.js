@@ -21,7 +21,7 @@ class Nunjucks {
 
   dependencies() {
       // Example:
-      return ['glob', 'html-webpack-plugin', 'html-loader', 'nunjucks-html-loader'];
+      return ['glob', 'html-loader', 'html-webpack-plugin', 'nunjucks-html-loader'];
   }
 
   /**
@@ -36,7 +36,7 @@ class Nunjucks {
       root: '/',
     }).map(page => new HtmlWebpackPlugin({
       filename: page.replace('njk', 'html'),
-      template: path.join(basePath, `/resources/html/${page}`)
+      template: path.join(basePath, `${from}/${page}`)
     }));
 
     this.nunjucksOptions = JSON.stringify(options);
@@ -54,8 +54,9 @@ class Nunjucks {
         {
           loader: 'html-loader',
           options: {
-            sources: false
-          }
+            // Disables attributes processing
+            attributes: false
+          },
         },
         {
           loader: `nunjucks-html-loader?${this.nunjucksOptions}`

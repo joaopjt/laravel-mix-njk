@@ -1,6 +1,6 @@
 {
   "name": "laravel-mix-njk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A abstract solution for nunjucks impementation on laravel-mix.",
   "keywords": [
     "mix",
